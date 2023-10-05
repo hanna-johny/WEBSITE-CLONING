@@ -29,24 +29,22 @@ header {
   text-align: center;
   font-family: mbold;
   font-size: 30px;
-  padding-top: 15px;
+  padding-top: 10px;
 }
 #logo {
   display: flex;
   font: 15px;
-  padding: 1px 6px;
-  font-size: 15px;
+  padding-top: 10px;
+  font-size: 10px;
 }
 
 #toggle-menu img {
   display: flex;
   width: 30px;
   font-size: 20px;
-  padding-bottom: 1px 6px;
-  text-align: center;
-  justify-content: start;
-  width: 20px;
-  height: 13px;
+  padding-top: 10px;
+  justify-content: center;
+  align-items: center;
 }
 
 #logo-container {
@@ -55,6 +53,7 @@ header {
   font-size: 15px;
   text-align: center;
   align-items: center;
+  padding-top: 10px;
 }
 
 header:nth-child(3) {
@@ -64,23 +63,25 @@ header:nth-child(3) {
   font-size: 15px;
   justify-content: space-between;
   padding-left: 15px;
+  padding-top: 10px;
 }
 
 .search-image::after {
   /* display: flex */
   content: "";
   font-family: mfluent;
-  font-size: 15px;
+  font-size: 18px;
   align-items: center;
   justify-content: space-between;
   padding-right: 30px;
   padding-bottom: 10px;
+  padding: top 10px;
 }
 
 .profile-section {
   display: flex;
   align-items: center;
-  padding-top: 0px;
+  padding-top: 10px;
 }
 .profile-section h2 {
   display: flex;
@@ -90,7 +91,7 @@ header:nth-child(3) {
   font-weight: 100;
 }
 
-@media screen and (max-width: 500px) {
+/* @media screen and (max-width: 768px) {
   nav {
     float: none;
     width: 100%;
@@ -104,17 +105,15 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px 8px;
+  padding-top: 10px;
 }
 ul {
   margin-bottom: 50px;
   padding-top: 10px;
-  height: 20px;
-}
-ul a {
+  height: 20px; */
+
+/* ul a {
   font-size: 12px;
-  justify-content: space-between;
-  align-items: center;
   color: #000000;
   text-decoration: none;
   font-family: mnormal;
@@ -124,9 +123,68 @@ ul .arrow-expand::after {
   content: "";
   font-family: mfluent;
   font-size: 10px;
+  align-items: flex-start;
+  margin-right: 10px;
+  padding-top: 10px;
 }
-.profile-section div {
-  padding-bottom: 12px;
+.profile-section {
+  padding-top: 10px;
   padding-right: 12px;
   font-weight: 100px;
+}
+
+ul .arrow-expand {
+  justify-content: center;
+  align-items: center;
+  padding-right: 12px;
+}
+#options {
+  @media screen and(max-width:775px) {
+    p {
+      display: flex;
+    }
+  }
+  
+#options h2 {
+  font-size: 12px;
+  font-family: mnormal;
+  font-weight: 200;
+  padding-top: 20px;
+}
+
+#options p {
+  padding-right: 50px;
+  
+} */
+
+#options h2 {
+  justify-content: center;
+  font-size: 15px;
+  font-family: mnormal;
+  font-weight: 300;
+}
+#logo-container span {
+  font-size: 20px;
+  font-weight: 400;
+  align-items: center;
+}
+#logo img {
+  height: 60px;
+  width: 60px;
+  padding-left: 25px;
+}
+
+#options p {
+  padding-right: 100px;
+  padding-top: 20px;
+}
+
+/* .sign-in p {
+  font-size: 15px;
+  font-family: mnormal;
+  padding-top: 25px;
+} */
+.profile-section p {
+  font-size: 15px;
+  font-family: mnormal;
 }

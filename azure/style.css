@@ -252,10 +252,13 @@ ul .arrow-expand {
 }
 
 .try button {
-  display: block;
   justify-content: center;
   font-size: 15px;
-  color: #243a5e;
+  padding-left: 210px;
+  padding-top: 20px;
+  margin-top: 10px;
+  text-align: left;
   background-color: transparent;
   border-radius: 6px;
+  color: #142034;
 }

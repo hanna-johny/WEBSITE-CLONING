@@ -119,6 +119,7 @@ header:nth-child(3) {
 .banner img {
   width: 100%;
   height: 100%;
+  background: linear-gradient(90deg, #ede8f6 0%, #f4fafd 49.99%, #dceef8 100%);
 }
 .banner {
   height: 210.41px;
@@ -135,6 +136,7 @@ header:nth-child(3) {
   font-size: 30px;
   font-family: mnormal;
   font-weight: 800;
+  background: linear-gradient(90deg, #ede8f6 0%, #f4fafd 49.99%, #dceef8 100%);
   color: #142034;
   padding-top: 30px;
   padding-right: 40px;
@@ -146,7 +148,7 @@ header:nth-child(3) {
   text-align: left;
 }
 
-.hero {
+.banner {
   background: linear-gradient(90deg, #ede8f6 0%, #f4fafd 49.99%, #dceef8 100%);
 }
 .details {
@@ -156,8 +158,10 @@ header:nth-child(3) {
   display: block;
   color: #142034;
   box-sizing: border-box;
+  background: linear-gradient(90deg, #ede8f6 0%, #f4fafd 49.99%, #dceef8 100%);
   padding-left: 15px;
-  padding-top: 10px;
+  padding-top: 30px;
+  padding-bottom: 90px;
   padding-right: 30px;
   text-align: left;
   line-height: 28px;
@@ -204,4 +208,15 @@ header:nth-child(3) {
   font-size: 15px;
   font-family: mbold;
   font-weight: 500;
+}
+
+.end {
+  margin-top: 30px;
+  font-size: 10px;
+  height: 60px;
+  font-size: 6px;
+  font-family: mnormal;
+  color: #234a5e;
+  padding-left: 15px;
+  padding-bottom: 10px;
 }

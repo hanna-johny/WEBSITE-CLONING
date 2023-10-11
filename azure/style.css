@@ -25,6 +25,7 @@ header {
   font-size: 30px;
   padding-top: 10px;
 }
+
 #logo {
   display: flex;
   font: 15px;
@@ -147,7 +148,6 @@ header:nth-child(3) {
   line-height: 40px;
   text-align: left;
 }
-
 .banner {
   background: linear-gradient(90deg, #ede8f6 0%, #f4fafd 49.99%, #dceef8 100%);
 }
@@ -167,7 +167,6 @@ header:nth-child(3) {
   line-height: 28px;
   letter-spacing: -0.54px;
 }
-
 .start {
   text-align: center;
   font-size: 10px;
@@ -193,7 +192,6 @@ header:nth-child(3) {
   letter-spacing: 1px;
   margin-top: 10px;
 }
-
 .try {
   text-align: center;
   border: 2px solid #234a5e;
@@ -209,14 +207,25 @@ header:nth-child(3) {
   font-family: mbold;
   font-weight: 500;
 }
-
-.end {
-  margin-top: 30px;
-  font-size: 10px;
-  height: 60px;
-  font-size: 6px;
+.end h1 {
+  font-size: 12px;
   font-family: mnormal;
-  color: #234a5e;
-  padding-left: 15px;
-  padding-bottom: 10px;
+  font-weight: 100;
+  color: #243a5e;
+  margin-top: 30px;
+}
+.end span::after {
+  content: "";
+  font-family: mfluent;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(60, 61, 61);
+  letter-spacing: -0.48px;
+  line-height: 16px;
+  padding-left: 310px;
+  padding-bottom: 20px;
+}
+.next-page img {
+  height: 100%;
+  width: 100%;
 }

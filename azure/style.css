@@ -17,14 +17,15 @@ body {
 }
 .logo-container {
   display: flex;
-  justify-content: center;
   justify-content: space-between;
 }
 .toggle-menu img {
   height: 20px;
   width: 20px;
-  padding-left: 12px;
-  padding-right: 6px;
+  align-items: center;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
 }
 .toggle-menu span {
   font-family: mbold;
@@ -34,25 +35,28 @@ body {
   line-height: 44px;
 }
 .logo img {
-  padding-top: 4px;
-  padding-left: 19px;
   height: 32px;
   width: 32px;
+}
+.sign-in {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
 }
 .sign-in span::after {
   content: "";
   font-family: mfluent;
   font-size: 18px;
-  margin-right: 12px;
-  margin-top: 4px;
+  padding-right: 30px;
 }
 .sign-in p {
   font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial,
     sans-serif;
   font-size: 14px;
-  padding: 20px;
   letter-spacing: 0.48px;
+  padding-bottom: 10px;
 }
+
 /* p{
   display: block;
   justify-content: space-between;

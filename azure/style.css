@@ -18,43 +18,49 @@ body {
 .logo-container {
   display: flex;
   justify-content: space-between;
+  text-align: center;
 }
 .toggle-menu img {
   height: 20px;
   width: 20px;
   align-items: center;
-  margin-left: 0px;
-  margin-bottom: 0px;
-  margin-right: 0px;
+  margin-left: 24px;
+  margin-top: 30px;
 }
 .toggle-menu span {
-  font-family: mbold;
+  color: #1a1a1f;
+  font-family: mnormal;
   font-size: 18px;
-  font-weight: 800;
+  font-weight: 600;
   letter-spacing: -0.48px;
   line-height: 44px;
+  padding-left: 10px;
+  margin-bottom: 20px;
 }
 .logo img {
   height: 32px;
   width: 32px;
+  margin-left: 20px;
 }
-.sign-in {
+.right-nav {
   display: flex;
   flex-direction: row;
-  margin-top: 20px;
 }
-.sign-in span::after {
+.right-nav span::after {
   content: "";
   font-family: mfluent;
   font-size: 18px;
-  padding-right: 30px;
+  margin-right: 60px;
+  margin-top: 50px;
 }
-.sign-in p {
+.right-nav p {
   font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial,
     sans-serif;
   font-size: 14px;
   letter-spacing: 0.48px;
-  padding-bottom: 10px;
+}
+.foo {
+  padding-top: 15px;
 }
 
 /* p{

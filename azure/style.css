@@ -158,32 +158,23 @@
   padding-top: 10px;
 }
 .featured-news {
-  border: 1px solid white;
-  box-sizing: border-box;
   background-color: white;
+  margin-top: 97px;
   height: 60px;
-  margin-top: 100px;
-  margin-bottom: 10pxyuiy ;
 }
 .featured-news p {
-  font-size: 16px;
-  color: #2a446f;
+  font-family: mbold;
   font-size: 12px;
-  font-family: mnormal;
-  line-height: 16px;
   font-weight: 600;
+  color: #2a446f;
   letter-spacing: -0.48px;
   line-height: 16px;
+  text-align: left;
+  padding-top: 20px;
+  padding-left: 20px;
 }
 
-/* .features h1 {
-  font-size: 12px;
-  font-family: mnormal;
-  font-weight: 100;
-  color: #243a5e;
-  margin-top: 30px;
-}
-.features span::after {
+.featured-news span::after {
   content: "";
   font-family: mfluent;
   font-size: 16px;
@@ -191,10 +182,81 @@
   color: rgb(60, 61, 61);
   letter-spacing: -0.48px;
   line-height: 16px;
-  padding-left: 310px;
-  padding-bottom: 20px;
+  padding-left: 340px;
 }
-.featured-news img {
+.section-2 {
+  position: relative;
   height: 100%;
   width: 100%;
-}  */
+}
+.background-image img {
+  height: 1345px;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+.heading p {
+  color: rgb(38, 62, 101);
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: mnormal;
+  letter-spacing: 0.96px;
+  line-height: 16px;
+  padding-top: 50px;
+  padding-left: 10px;
+}
+.heading h1 {
+  color: #17253d;
+  font-family: mnormal;
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: -1.4px;
+  line-height: 36px;
+  padding-left: 12px;
+  padding-right: 40px;
+  padding-top: 22px;
+}
+.card-footer span::before {
+  content: "";
+  font-family: mfluent;
+  color: rgb(255, 255, 255);
+  border-radius: 6px;
+  border: 1px solid #0078d4;
+  background-color: #0078d4;
+}
+.card-footer {
+  display: flex;
+  column-gap: 30px;
+  margin-top: 30px;
+}
+.card-1 img {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+.card-1 {
+  margin-top: 20px;
+  border: 6px solid white;
+  background: white;
+  border-radius: 8px;
+  margin: 18px;
+  height: 365px;
+}
+.card-text h1 {
+  color: #17253d;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: mnormal;
+  letter-spacing: -0.54px;
+  line-height: 24px;
+  margin-top: 10px;
+}
+.card-text p {
+  color: #17253d;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: -0.48px;
+  line-height: 24px;
+  margin-top: 20px;
+}

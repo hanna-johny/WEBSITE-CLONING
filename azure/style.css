@@ -62,7 +62,7 @@
 .right-nav {
   display: flex;
   align-items: center;
-  column-gap: 25px;
+  column-gap: 20px;
   margin-left: 20px;
   margin-right: 20px;
   margin-top: 10px;

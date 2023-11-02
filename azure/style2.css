@@ -1,0 +1,54 @@
+@font-face {
+    font-family: mnormal;
+    src: url("assets/normal.woff2");
+}
+
+@font-face {
+    font-family: mbold;
+    src: url("assets/bold.woff2");
+}
+
+@font-face {
+    font-family: mfluent;
+    src: url("assets/fluent.woff2");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-container {
+    display: flex;
+    height: 78px;
+    width: 100%;
+}
+
+.logo-menu {
+    display: flex;
+    column-gap: 12px;
+    align-items: center;
+    margin-left: 12px;
+    margin-bottom: 22px;
+}
+
+.logo-menu img {
+    width: 24px;
+    height: 26.25px;
+}
+
+.logo-menu span {
+    font-size: 18px;
+    color: #1a1a1f;
+    font-weight: 600;
+    font-family: mbold;
+    letter-spacing: -0.48px;
+    line-height: 24px;
+    margin-bottom: 2px;
+}
+
+.explore span ::after {
+    content: "";
+    font-family: mfluent;
+}

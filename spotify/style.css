@@ -1,0 +1,52 @@
+@font-face {
+    font-family: mregular;
+    src: url(spotify-font/mregular.woff2);
+}
+
+@font-face {
+    font-family: mbold;
+    src: url(spotify-font/mbold.woff2);
+}
+
+@font-face {
+    font-family: mbook;
+    src: url(spotify-font/mbook.woff2);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-container {
+    height: 56px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 15px;
+    margin-right: 16px;
+    margin-top: 5px;
+}
+
+.menu-button span {
+    font-family: mbold;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.menu-button {
+    border: 1px solid #ffffff;
+    background: #ffffff;
+    border-radius: 500px;
+    padding: 8px 24px;
+    margin-bottom: 8px;
+}

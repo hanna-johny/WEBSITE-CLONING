@@ -19,6 +19,7 @@
     box-sizing: border-box;
 }
 
+
 .flex-container {
     height: 56px;
     width: 100%;
@@ -37,10 +38,19 @@
     margin-top: 5px;
 }
 
+.search img {
+    padding-right: 3px;
+    transform: translateX(1px);
+}
+
 .menu-button span {
     font-family: mbold;
     font-size: 12px;
     letter-spacing: 1px;
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .menu-button {
@@ -48,5 +58,56 @@
     background: #ffffff;
     border-radius: 500px;
     padding: 8px 24px;
-    margin-bottom: 8px;
+    margin-bottom: 6px;
+    height: 34px;
+    transform: translateX(-1px);
+    width: 114.88px;
+}
+
+.logo img {
+    margin-left: 16px;
+    margin-top: 4px;
+}
+
+body {
+    background: rgb(18, 18, 18);
+
+}
+
+.heading span {
+    font-size: 18px;
+    font-family: mbold;
+    color: #ffffff;
+    line-height: 0px;
+}
+
+
+.heading {
+    margin-top: 25px;
+    margin-left: 15px;
+    letter-spacing: -1px;
+}
+
+.image-1 img {
+    height: 152px;
+    width: 152px;
+}
+
+.playlists {
+    display: flex;
+    column-gap: 15px;
+    overflow: scroll;
+    margin-left: 17px;
+    margin-top: 23px;
+}
+
+.playlists::-webkit-scrollbar {
+    display: none;
+}
+
+.playlists span {
+    color: #ffffff;
+    font-size: 16px;
+    font-family: mbook;
+    font-weight: 400;
 }

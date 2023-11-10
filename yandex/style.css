@@ -1,0 +1,145 @@
+@font-face {
+    font-family: mmedium;
+    src: url(fonds/text-medium.woff2)
+}
+
+@font-face {
+    font-family: mregular;
+    src: url(fonds/text-regular.woff2);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 28px;
+    margin-left: 32px;
+    margin-right: 34px;
+
+}
+
+.logo img {
+    height: 44px;
+    width: 44px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.button span {
+    font-family: mregular;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    transform: translateY(10px);
+}
+
+.button {
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    background-color: rgba(0, 0, 0, 0.06);
+    border-radius: 12px;
+    width: 84.78px;
+    height: 40px;
+    transform: translateX(7px);
+    margin-top: -6px;
+}
+
+.toggy img {
+    width: 40px;
+    height: 40px;
+}
+
+main {
+    height: calc(100vh-72px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* margin: auto auto; */
+}
+
+.services {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 660px;
+    padding-top: 20rem;
+    /* margin-left: 223px;
+    margin-right: 223px;
+    margin-top: 355px; */
+}
+
+.images img {
+    height: 50px;
+    width: 50px;
+    margin-bottom: 5px;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.icon span {
+    font-family: mregular;
+    font-size: 15px;
+}
+
+.search input {
+    color: #ccc;
+    border: 1px solid #fc0;
+    border-radius: 16px;
+    box-sizing: border-box;
+    font-size: 18px;
+    width: 100%;
+    height: 100%;
+    padding-left: 15px;
+}
+
+.search {
+    width: 642px;
+    height: 52px;
+    border-radius: 16px;
+    margin-top: 50px;
+
+}
+
+.weather {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.cloud {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 520px;
+}
+
+.cloud span {
+    font-size: 15px;
+    color: #000000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+}
+
+.location span {
+    font-size: 14px;
+    font-family: mregular;
+    color: #00000073;
+}

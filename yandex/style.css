@@ -47,7 +47,7 @@
 }
 
 .button {
-    border: 1px solid rgba(0, 0, 0, 0.06);
+    border: solid rgba(0, 0, 0, 0.06);
     background-color: rgba(0, 0, 0, 0.06);
     border-radius: 12px;
     width: 84.78px;
@@ -67,7 +67,6 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    /* margin: auto auto; */
 }
 
 .services {
@@ -75,13 +74,12 @@ main {
     justify-content: space-between;
     align-items: center;
     width: 660px;
-    padding-top: 20rem;
-    /* margin-left: 223px;
-    margin-right: 223px;
-    margin-top: 355px; */
+    padding-top: 22.4rem;
+    padding-left: 44px;
+    padding-right: 40px;
 }
 
-.images img {
+/* .images img {
     height: 50px;
     width: 50px;
     margin-bottom: 5px;
@@ -90,7 +88,7 @@ main {
 .icon {
     display: flex;
     flex-direction: column;
-    row-gap: 5px;
+    row-gap: -2px;
 }
 
 .icon span {
@@ -142,4 +140,22 @@ main {
     font-size: 14px;
     font-family: mregular;
     color: #00000073;
+} */
+
+/* .icon {
+    display: flex;
+    flex-direction: column;
+    column-gap: 10px;
+
+
+} */
+
+.icon span {
+    font-size: 15px;
+    font-family: mregular;
+}
+
+.image img {
+    height: 50px;
+    width: 50px;
 }

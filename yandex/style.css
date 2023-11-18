@@ -98,7 +98,7 @@ main {
 .icon {
     display: flex;
     flex-direction: column;
-    row-gap: -2px;
+    row-gap: 2px;
 }
 
 .icon span {
@@ -141,14 +141,14 @@ main {
 }
 
 .cloud span {
-    font-size: 15px;
+    font-size: 16px;
     color: #000000;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 }
 
 .location span {
-    font-size: 14px;
+    font-size: 12px;
     font-family: mregular;
     color: #00000073;
 }

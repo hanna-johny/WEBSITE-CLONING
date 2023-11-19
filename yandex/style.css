@@ -114,7 +114,7 @@ main {
     border: 1px solid rgb(255, 204, 0);
     border-radius: 16px;
     box-sizing: border-box;
-    font-size: 18px;
+    font-size: 16px;
     width: 777.64px;
     height: 54.09px;
 }
@@ -141,14 +141,14 @@ main {
 }
 
 .cloud span {
-    font-size: 16px;
+    font-size: 15px;
     color: #000000;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 }
 
 .location span {
-    font-size: 12px;
+    font-size: 10px;
     font-family: mregular;
     color: #00000073;
 }

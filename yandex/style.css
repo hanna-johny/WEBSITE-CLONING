@@ -18,15 +18,15 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 28px;
+    /* margin-top: 28px;
     margin-left: 32px;
-    margin-right: 34px;
+    margin-right: 34px; */
 
 }
 
 .logo img {
-    height: 45.64px;
-    width: 45.64px;
+    height: 43.64px;
+    width: 43.64px;
 }
 
 .menu {
@@ -39,7 +39,7 @@
 .button span {
     font-family: mregular;
     color: rgb(0, 0, 0);
-    font-size: -8rem;
+    font-size: 16.6px;
     font-weight: 500;
     display: flex;
     justify-content: center;
@@ -56,8 +56,8 @@
 }
 
 .toggy img {
-    width: 40px;
-    height: 40px;
+    width: 41.63px;
+    height: 41.63px;
 }
 
 /* 
@@ -70,10 +70,10 @@ main {
 } */
 
 .main-container {
+    /* margin-top: 225px; */
     position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    top: 34%;
+    top: 30%;
+    left: 24%;
     display: flex;
     flex-direction: column;
     row-gap: 30px;
@@ -89,8 +89,8 @@ main {
 }
 
 .images img {
-    height: 51.88px;
-    width: 51.88px;
+    height: 55%;
+    width: 55%;
     /* margin-bottom: 5px; */
     padding-left: 5px;
 }

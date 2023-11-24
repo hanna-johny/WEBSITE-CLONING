@@ -1,4 +1,3 @@
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
 <path d="M24.0003 14.0104C14.9536 14.0104 7.61914 11.4794 7.61914 8.13855V39.4215C7.61914 42.6359 14.8258 45.2428 23.7703 45.2934H24.0003C33.0469 45.2934 40.3814 42.7624 40.3814 39.4215V8.13855C40.3814 11.4035 33.0469 14.0104 24.0003 14.0104Z" fill="url(#paint0_linear_1915_136534)"/>
 <path d="M40.3814 8.13811C40.3814 11.4031 33.0469 14.01 24.0003 14.01C14.9536 14.01 7.61914 11.479 7.61914 8.13811C7.61914 4.79722 14.9536 2.26624 24.0003 2.26624C33.0469 2.26624 40.3814 4.79722 40.3814 8.13811Z" fill="#E8E8E8"/>
 <path d="M36.5734 7.6567C36.5734 9.73211 30.9256 11.4026 24.0001 11.4026C17.0745 11.4026 11.4268 9.73211 11.4268 7.6567C11.4268 5.5813 17.0745 3.93616 24.0001 3.93616C30.9256 3.93616 36.5734 5.60661 36.5734 7.6567Z" fill="#50E6FF"/>
@@ -13,7 +12,8 @@
 <stop offset="0.64" stop-color="#0074CD"/>
 <stop offset="0.82" stop-color="#006ABB"/>
 <stop offset="1" stop-color="#005BA1"/>
-</linearGradient>
+</linearGradient><svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+
 <radialGradient id="paint1_radial_1915_136534" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(24.9207 27.7552) scale(18.0678 17.894)">
 <stop stop-color="#F2F2F2"/>
 <stop offset="0.58" stop-color="#EEEEEE"/>

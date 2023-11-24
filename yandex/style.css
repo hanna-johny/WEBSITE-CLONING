@@ -19,12 +19,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 33.355px 40.5025px 0px 38.12px;
+    padding: 27.725px 34.8797px 1px 32.828px;
 }
 
 .logo img {
-    height: 52.41px;
-    width: 52.41px;
+    height: 46.64px;
+    width: 46.64px;
 }
 
 .menu {
@@ -47,14 +47,14 @@
 .button {
     border: 0px solid;
     background-color: rgba(0, 0, 0, 0.06);
-    border-radius: 12.45px;
+    border-radius: 0.6rem;
     width: 87.94px;
     height: 41.5px;
 }
 
 .toggy img {
-    height: 52.39px;
-    width: 52.39px;
+    height: 45.13px;
+    width: 45.13px;
     padding: 2.3825px;
     margin: -2.3825px;
 }
@@ -64,7 +64,7 @@ main {
     display: flex;
     align-items: center;
     position: absolute;
-    top: 42.5%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: -1;
@@ -78,7 +78,8 @@ main {
     margin-left: auto;
     margin-right: auto;
     height: 100%;
-    width: 1043px;
+    width: 100%;
+    max-width: 853.38px;
 }
 
 .services {
@@ -87,13 +88,13 @@ main {
     align-items: center;
     flex-direction: row;
     box-sizing: border-box;
-    width: 1017.5px;
+    width: 795.44px;
 }
 
 
 .images {
-    height: 59.56px;
-    width: 59.56px;
+    height: 51.88px;
+    width: 51.88px;
 }
 
 .div1 {
@@ -133,8 +134,8 @@ main {
 
 
 .images img {
-    height: 59.56px;
-    width: 59.56px;
+    height: 51.28px;
+    width: 51.28px;
     object-fit: cover;
 }
 
@@ -148,7 +149,7 @@ main {
 
 .icon span {
     font-family: mregular;
-    font-size: 17.8688px;
+    font-size: 15.5625px;
 }
 
 .search input {
@@ -158,10 +159,11 @@ main {
     border: 2px solid rgb(255, 204, 0);
     border-radius: 16px;
     box-sizing: border-box;
-    font-size: px;
-    height: 62.7px;
+    font-size: 20px;
+    height: 58.09px;
     padding: 1rem;
-    width: 1001.61px;
+    width: 792px;
+
 }
 
 .search input::placeholder {
@@ -182,11 +184,13 @@ main {
     flex-direction: row;
     align-items: center;
     transform: translateY(-23px);
+    width: 795.44px;
 }
 
 .cloud {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     align-items: center;
     column-gap: 6.5px;
 }

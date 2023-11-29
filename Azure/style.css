@@ -10,7 +10,6 @@
   font-family: mfluent;
   src: url(./assets/fluent.woff2);
 }
-
 .flex-container {
   display: flex;
   align-items: center;
@@ -19,35 +18,7 @@
 }
 .logo {
   display: flex;
-  flex-direction: row;
-  column-gap: 10px;
   align-items: center;
-  text-align: left;
-}
-
-.logo img {
-  height: 24px;
-  width: 24px;
-}
-.logo span {
-  font-size: 18px;
-  font-family: Segoe UI, SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 600;
-  color: rgb(26, 26, 31);
-  letter-spacing: -1px;
-}
-.button span {
-  font-size: 12px;
-  color: rgb(26, 26, 31);
-  font-family: mnormal;
-  font-weight: 600;
-  box-sizing: border-box;
-  border: 1px solid rgb(111, 158, 2);
-  /* background-color: rgb(111, 158, 2); */
-  background-color: #6f9e02;
-  border-radius: 4px;
-  padding-left: 9px;
-  padding-top: 9px;
-  padding-right: 9px;
-  padding-bottom: 9px;
+  height: 100%;
+  width: 100%;
 }

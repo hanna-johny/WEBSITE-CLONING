@@ -20,5 +20,25 @@
   display: flex;
   align-items: center;
   height: 100%;
-  width: 100%;
+  width: 83.17px;
+  justify-content: space-between;
+  font-size: 18px;
+  font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-weight: 600;
+  color: #1a1a1f;
+}
+.logo img {
+  max-width: 24px;
+  max-width: 24px;
+}
+.logo span {
+  font-size: 18px;
+  font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-weight: 18px;
+}
+.button {
+  font-size: 9px;
+  font-family: mnormal;
 }

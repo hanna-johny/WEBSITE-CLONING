@@ -1,0 +1,81 @@
+@font-face {
+  font-family: mmedium;
+  src: url(./assets/Airbnb_Cereal-Medium-50fc004b3082375f12ff0cfb67bf8e56.woff2);
+}
+@font-face {
+  font-family: mbook;
+  src: url(./assets/Airbnb_Cereal-Book-9a1c9cca9bb3d65fefa2aa487617805e.woff2);
+}
+@font-face {
+  font-family: mbold;
+  src: url(./assets/Airbnb_Cereal-Bold-bdfb98485e7836ba31b456f65cded088.woff2);
+}
+#tab {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 10px;
+}
+
+.air-logo img {
+  height: 64px;
+  width: 118px;
+}
+.container-tab {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  border: 2px solid whitesmoke;
+  background-color: white;
+  border-radius: 12px;
+  padding: 0px, 24px;
+}
+.anywhere {
+  font-size: 14px;
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
+    "Helvetica Neue", sans-serif;
+  color: #222222;
+}
+.anyweek {
+  font-size: 14px;
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
+    "Helvetica Neue", sans-serif;
+  color: #222222;
+}
+.addguests {
+  font-size: 14px;
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
+    "Helvetica Neue", sans-serif;
+  color: #717171;
+}
+.search {
+  background-color: #ff385c;
+  border-radius: 50%;
+  height: 32px;
+  width: 32px;
+}
+.search img {
+  height: 12px;
+  width: 12px;
+  margin-left: 9px;
+  margin-top: 10px;
+}
+
+.air-home {
+  font-size: 14px;
+  color: #222222;
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
+    Helvetica Neue, sans-serif;
+}
+
+.right-nav {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+}
+
+.profile-section {
+  display: flex;
+}

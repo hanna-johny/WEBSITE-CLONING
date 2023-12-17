@@ -14,7 +14,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 12px;
+  padding: 5px;
 }
 .logo {
   display: flex;
@@ -23,8 +23,7 @@
   width: 83.17px;
   justify-content: space-between;
   font-size: 18px;
-  font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial,
-    sans-serif;
+  font-family: mfluent;
   font-weight: 600;
   color: #1a1a1f;
 }
@@ -38,7 +37,17 @@
     sans-serif;
   font-weight: 18px;
 }
-.button {
-  font-size: 9px;
+.button span {
+  font-size: 12px;
   font-family: mnormal;
+}
+.button {
+  border: 1px solid #6f9e02;
+  background: #89c402;
+  height: 32px;
+  width: 70.55px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

@@ -1,20 +1,35 @@
 @font-face {
   font-family: mnormal;
-  src: url(./assets/normal.woff2);
+  src: url(./assets/latest.woff2);
+}
+@font-face {
+  font-family: msemibold;
+  src: url(./assets/msemibold.woff2);
 }
 @font-face {
   font-family: mbold;
-  src: url(./assets/bold.woff2);
+  src: url(./assets/mbold.woff2);
 }
 @font-face {
   font-family: mfluent;
-  src: url(./assets/fluent.woff2);
+  src: url(./assets/MWFFluentIcons.woff2);
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  position: sticky;
+}
+
 .flex-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 5px;
+  padding: 12px;
 }
 .logo {
   display: flex;
@@ -28,18 +43,18 @@
   color: #1a1a1f;
 }
 .logo img {
-  max-width: 24px;
-  max-width: 24px;
+  height: 24px;
+  width: 24px;
+  margin-top: 2px;
 }
 .logo span {
   font-size: 18px;
-  font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial,
-    sans-serif;
+  font-family: msemibold;
   font-weight: 18px;
 }
 .button span {
   font-size: 12px;
-  font-family: mnormal;
+  font-family: msemibold;
 }
 .button {
   border: 1px solid #6f9e02;
@@ -50,4 +65,125 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.description {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 1px;
+  word-wrap: break-word;
+  background-clip: border-box;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.build h1 {
+  font-size: 24px;
+  font-family: msemibold;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+  margin-top: 6rem;
+  line-height: 28.8px;
+}
+.create {
+  margin-top: 13px;
+  display: inline;
+}
+.create span {
+  font-size: 17px;
+  font-weight: 600;
+  font-family: msemibold;
+  line-height: 23px;
+}
+
+.start-and-pay {
+  display: flex;
+  align-items: center;
+  column-gap: 28px;
+  margin-top: 27px;
+}
+
+.start-button span {
+  font-size: 16px;
+  font-family: msemibold;
+  color: rgb(0, 0, 0);
+}
+
+.start-button {
+  border: 1px solid rgb(137, 196, 2);
+  background-color: rgb(137, 196, 2);
+  border-radius: 2px;
+  height: 40px;
+  width: 95.39px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pay-button span {
+  font-size: 16px;
+  font-family: msemibold;
+  color: rgb(0, 103, 184);
+}
+.pay-button {
+  border: 2px solid rgb(0, 103, 184);
+  border-radius: 2px;
+  border-bottom-width: 2px;
+  border-top-width: 2px;
+  height: 40px;
+  width: 128.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .cards .card-1 {
+  border: 1px solid #c8d7e6;
+  background: #c8d7e6;
+  height: 185.59px;
+  text-align: center;
+  line-height: 28.8px;
+}
+.card-1 {
+  margin-top: 42%;
+}
+.card-1 span {
+  display: block;
+  font-size: 24px;
+  font-family: msemibold;
+  margin-left: 50%;
+  margin-right: 50%;
+  text-align: center;
+} */
+
+.cards {
+  border: 1px solid red;
+  height: 185.59px;
+  text-align: center;
+}
+
+.card-1 p {
+  font-size: 24px;
+  font-family: msemibold;
+  text-align: center;
+}
+.view span::before {
+  content: "";
+  color: rgb(0, 103, 184);
+  font-family: mfluent;
+  font-size: 16px;
+}
+.view span {
+  font-size: 16px;
+  font-family: msemibold;
+  color: #0067b8;
+}
+.view {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: underline;
+  color: rgb(0, 103, 184);
+  font-size: 16px;
+  font-weight: 600;
 }

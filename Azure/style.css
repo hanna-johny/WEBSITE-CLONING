@@ -272,3 +272,8 @@
 .cross-platform {
   width: 303px;
 }
+.mobile-experiences {
+  font-size: 16px;
+  font-family: mnormal;
+  font-weight: 400;
+}

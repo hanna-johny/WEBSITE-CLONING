@@ -1,49 +1,62 @@
 @font-face {
-  font-family: mbold;
-  src: url(./assets/TTNorms-Bold.woff2);
-}
-@font-face {
-  font-family: mmedium;
-  src: url(./assets/TTNorms-Medium.woff2);
-}
-@font-face {
-  font-family: mregular;
+  font-family: "mregular";
   src: url(./assets/TTNorms-Regular.woff2);
 }
+
+@font-face {
+  font-family: "mmedium";
+  src: url(./assets/TTNorms-Medium.woff2);
+}
+
+@font-face {
+  font-family: "mbold";
+  src: url(./assets/TTNorms-Bold.woff2);
+}
+
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
-.banner {
+.header-layer {
   position: relative;
   height: 551px;
 }
-.hero-banner {
+
+.main-banner-bg {
   position: absolute;
   width: 100%;
   height: 549px;
   z-index: -1;
 }
-.hero-banner img {
+
+.main-banner-bg img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-.banner-2 img {
-  display: none;
-}
-.main-section {
+
+.header-text {
   padding: 0px 8px;
 }
-.sign-buttons {
+
+.sign-in-up {
   display: flex;
   justify-content: end;
   column-gap: 8px;
   transform: translate(-17px, 16px);
 }
-.sign-in {
+
+.sign-in-up p {
+  font-size: 16px;
+  font-family: mbold;
+  display: flex;
+  justify-content: center;
+  transform: translateY(3px);
+}
+
+.sign-in-btn {
   width: 71.03px;
   height: 32px;
   border: 1px solid transparent;
@@ -51,18 +64,15 @@
   background: #eb1700;
   transform: translateX(1px);
 }
-.sign-in p {
-  font-size: 16px;
-  font-family: mbold;
-  display: flex;
-  justify-content: center;
-  transform: translateY(3px);
+
+.sign-in-btn p {
   text-align: center;
   color: #fff;
   margin-top: 2px;
   letter-spacing: -0.454401px;
 }
-.sign-up {
+
+.sign-up-btn {
   width: 79.75px;
   height: 32px;
   border: 1px solid transparent;
@@ -71,37 +81,39 @@
   text-align: center;
   transform: translateX(1px);
 }
-.sign-up p {
-  font-size: 16px;
+
+.sign-up-btn p {
   font-family: mbold;
   font-weight: 700;
   color: #494949;
   margin-top: 2px;
   letter-spacing: -0.454401px;
-  display: flex;
-  justify-content: center;
-  transform: translateY(3px);
 }
-.doordash-logo {
+
+.center-text {
   display: flex;
   justify-content: center;
   column-gap: 8px;
   transform: translateY(146px);
 }
-.doordash-txt img {
+
+.doordash-text img {
   transform: translateY(3px);
 }
-.bottom {
+
+.text {
   transform: translateY(161px);
 }
-.discover h2 {
+
+.header-bottom h2 {
   color: #fff;
   font-size: 22px;
   font-family: mbold;
   text-align: center;
   line-height: 28px;
 }
-.deliver {
+
+.delivery-search {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -114,26 +126,27 @@
   padding-right: 4px;
   transform: translate(18px, 24px);
 }
+
 .search img {
   margin-left: -1px;
   margin-top: 5px;
 }
-.location img {
-  display: none;
-}
-.deliver p {
+
+.delivery-search p {
   font-size: 16px;
   font-family: mmedium;
   color: #615c5c;
   transform: translate(-32px, -1px);
   margin-left: 16px;
 }
-.right-arw {
+
+.arrow-right {
   margin-right: 7px;
   margin-top: 5px;
   transform: translateX(30px);
 }
-.profile {
+
+.sign-in-profile {
   display: flex;
   justify-content: center;
   column-gap: 4px;
@@ -147,21 +160,20 @@
   transform: translateX(135px);
   box-shadow: transparent 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.2) 0px 2px 8px;
 }
-.profile img {
+
+.sign-in-profile img {
   height: 16px;
   width: 16px;
   transform: translateY(7px);
 }
-.profile p {
+
+.sign-in-profile p {
   font-size: 14px;
   font-family: mbold;
   transform: translateY(7px);
 }
-.profile span {
-  display: none;
-}
 
-.download-section {
+.download-app {
   display: flex;
   column-gap: 8px;
   padding: 20px;
@@ -170,13 +182,14 @@
   max-width: 400px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 334px;
+  margin-top: 20px;
   border: 1px solid #f7f7f7;
   border-radius: 15px;
   background: #f7f7f7;
   box-shadow: 0px 0px 3px #ccc;
 }
-.orng-logo {
+
+.app-logo {
   width: 60px;
   height: 60px;
   border: 1px solid #f0eeee;
@@ -184,7 +197,8 @@
   border-radius: 14px;
   margin-top: -1px;
 }
-.orng-logo img {
+
+.app-logo img {
   width: 40px;
   height: 40px;
   display: flex;
@@ -192,24 +206,28 @@
   align-items: center;
   margin: 8px;
 }
-.playstore {
+
+.play-store {
   line-height: 23px;
   margin-top: -4px;
 }
-.playstore h2 {
+
+.play-store h2 {
   font-size: 18px;
   font-family: mbold;
   letter-spacing: -0.511197px;
   margin-bottom: 4px;
   margin-top: -3px;
 }
-.playstore h3 {
+
+.play-store h3 {
   font-size: 14px;
   font-family: mmedium;
   font-weight: 500;
   color: rgb(118, 118, 118);
 }
-.dwnld-btn {
+
+.app-download-btn {
   display: flex;
   column-gap: 4px;
   border: 1px solid #eb1700;
@@ -219,7 +237,8 @@
   height: 32px;
   margin-top: 8px;
 }
-.dwnld-btn p {
+
+.app-download-btn p {
   font-size: 14px;
   font-family: mbold;
   color: #fff;
@@ -227,61 +246,72 @@
   align-items: center;
   margin-left: 10px;
 }
-.dwnld-btn img {
+
+.app-download-btn img {
   width: 16px;
   height: 16px;
   display: flex;
   align-items: center;
   transform: translateY(7px);
 }
-.section-1 {
+
+.first-section {
   margin: 40px 0px;
   padding: 8px;
   height: 710px;
   display: flex;
   flex-direction: column;
 }
-.become {
+
+.dasher-partner-experience {
   display: flex;
   column-gap: 31px;
   padding: 16px;
 }
-.left-image img {
+
+.left-img img {
   width: 88px;
   height: 88px;
 }
-.right-txt h2 {
+
+.right-text h2 {
   font-size: 32px;
   font-family: mbold;
   line-height: 40px;
   letter-spacing: -0.04ch;
 }
-.right-txt h3 {
+
+.right-text h3 {
   font-size: 18px;
   font-family: mmedium;
   font-weight: 500;
   line-height: 24px;
 }
+
 .right-bottom {
   display: flex;
   column-gap: 4px;
   margin: 12px 0px 0px;
 }
-.right-bottom {
+
+.right-bottom p {
   font-size: 14px;
   font-family: mbold;
   color: #eb1700;
   letter-spacing: -0.397598px;
 }
+
 .right-bottom img {
   width: 16px;
   height: 11px;
   margin-top: 3px;
 }
-.restaurant-section {
+
+.resto-section {
   position: relative;
   height: 890px;
 }
+
 .overlay {
   position: absolute;
   bottom: 0;
@@ -290,22 +320,27 @@
   background-color: #fef1ee;
   z-index: -1;
 }
-.restaurant-dashpass {
+
+.resto-dashpass {
   padding: 20px;
 }
-.restaurant-img {
+
+.resto-img {
   width: 100%;
   height: 180px;
 }
-.restaurant-dashpass img {
+
+.resto-dashpass img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-.restaurant-img-tab {
+
+.resto-img-tab {
   display: none;
 }
-.restaurant-section-txt h2 {
+
+.resto-section-txt h2 {
   font-size: 24px;
   font-family: mbold;
   letter-spacing: -0.170399px;
@@ -313,19 +348,23 @@
   font-weight: 700;
   margin: 20px 0px 0px;
 }
-.restaurant-section h4 {
+
+.resto-section-txt h4 {
   font-size: 18px;
   font-family: mbold;
+  font-weight: 700;
   line-height: 22px;
   margin-top: 10px;
 }
-.restaurant-section p {
+
+.resto-section-txt p {
   font-size: 14px;
   font-family: mmedium;
   font-weight: 500;
   line-height: 20px;
   margin-top: 10px;
 }
+
 .button {
   width: fit-content;
   padding: 2px 15px;
@@ -335,6 +374,7 @@
   border-radius: 15px;
   margin: 20px 0px 0px;
 }
+
 .button p {
   display: flex;
   justify-content: center;
@@ -344,21 +384,25 @@
   font-size: 14px;
   font-family: mbold;
 }
-.grocery-page {
+
+.grocery-section {
   position: relative;
   height: 350px;
 }
+
 .grocery-bg {
   position: absolute;
   width: 100%;
   height: 350px;
   z-index: 0;
 }
+
 .grocery-bg img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
+
 .overlay2 {
   position: absolute;
   top: 0;
@@ -368,18 +412,14 @@
   background-color: rgba(30, 30, 30, 0.6);
   z-index: 1;
 }
-.grocery {
-  margin-left: auto;
-  margin-left: auto;
-}
-.grocery-txt {
+
+.grocery-text {
   position: absolute;
   z-index: 2;
   margin: 66px 0px;
 }
-.grocery-txt h2 {
-  font-size: 24px;
-  font-weight: 700;
+
+.grocery-text h2 {
   font-size: 24px;
   font-weight: 700;
   font-family: mbold;
@@ -389,16 +429,18 @@
   margin-top: 20px;
   text-align: center;
 }
-.grocery-txt h3 {
+
+.grocery-text h3 {
   font-size: 18px;
   font-family: mbold;
-  font-weight: 22px;
+  font-weight: 700;
   line-height: 22px;
   margin-top: 10px;
   color: #fff;
   text-align: center;
 }
-.grocery-txt p {
+
+.grocery-text p {
   font-size: 14px;
   font-family: mmedium;
   font-weight: 500;
@@ -408,47 +450,63 @@
   text-align: center;
 }
 
-.grocery {
-  margin-left: auto;
-  margin-right: auto;
-}
-.grocery-txt p {
+.grocery p {
   font-size: 14px;
   font-family: mbold;
   transform: translateY(-7px);
 }
-.convenience-store {
+
+.grocery {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.convenient-store {
   padding: 20px;
 }
-.convenience-store img {
-  height: 100%;
+
+.convenient-img {
   width: 100%;
+  height: 180px;
 }
-.convenience-img {
-  height: 100%;
+
+.convenient-store img {
   width: 100%;
+  height: 100%;
 }
-.convenience-img-tab {
+
+.convenient-img-tab {
   display: none;
 }
-.convenience-txt h2 {
+
+.convenient-text h2 {
   font-size: 24px;
   font-family: mbold;
   letter-spacing: -0.170399px;
   line-height: 32px;
   margin-top: 20px;
 }
-.convenience-txt p {
+
+.convenient-text p {
   font-size: 14px;
   font-family: mmedium;
   font-weight: 500;
   line-height: 20px;
   margin-top: 10px;
 }
-.scroll-page {
+
+.convenient p {
+  font-size: 14px;
+  font-weight: 700;
+  font-family: mbold;
+  margin-top: 3px;
+}
+
+.scroll-section {
   background: #fef1ee;
 }
-.scroll-page h2 {
+
+.scroll-section h2 {
   padding: 40px 20px 20px;
   max-width: 304px;
   text-align: center;
@@ -459,29 +517,25 @@
   letter-spacing: -0.170399px;
   line-height: 32px;
 }
-.scrolling-elements {
-  position: relative;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  overflow-x: scroll;
-}
-.units {
+
+.unit {
   flex-shrink: 0;
   padding: 20px;
   width: 331px;
   margin: 0px -37.5px 0px 18.75px;
 }
+
 .scroll-img {
   width: 100%;
   height: 180px;
 }
+
 .scroll-img img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
+
 .scroll-text h2 {
   font-size: 24px;
   font-family: mbold;
@@ -490,6 +544,7 @@
   line-height: 32px;
   margin-top: -13px;
 }
+
 .scroll-text h4 {
   font-size: 14px;
   font-family: mmedium;
@@ -498,11 +553,12 @@
   line-height: 20px;
   margin-top: -6px;
 }
+
 .scroll-text h3 {
   font-size: 12px;
   font-family: mmedium;
   font-weight: 500;
-  letter-spacing: 0.0852007;
+  letter-spacing: 0.0852007px;
   margin-top: 10px;
   text-align: center;
 }
@@ -511,19 +567,25 @@
   margin-left: auto;
   margin-right: auto;
 }
-.alcohol-desktop img {
+
+.scrolling-ele {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+}
+
+.scrolling-ele::-webkit-scrollbar {
   display: none;
 }
-.pet-desktop {
-  display: none;
-}
-.flowers-desktop {
-  display: none;
-}
+
 .business-section {
   position: relative;
 }
-.overlay {
+
+.overlay3 {
   position: absolute;
   width: 100%;
   height: 731px;
@@ -531,8 +593,9 @@
   z-index: -1;
   background: #fef1ee;
 }
+
 .business-section h2 {
-  font: size 24px;
+  font-size: 24px;
   font-family: mbold;
   font-weight: 700;
   letter-spacing: -0.170399px;
@@ -540,21 +603,26 @@
   text-align: center;
   padding: 40px 20px 20px;
 }
+
 .item {
   padding: 20px;
 }
+
 .item-img {
   width: 100%;
   height: 180px;
 }
+
 .item-img img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
+
 .item-img2 {
   display: none;
 }
+
 .item-text h2 {
   font-size: 24px;
   font-family: mbold;
@@ -565,6 +633,7 @@
   max-width: 90%;
   text-align: start;
 }
+
 .item h3 {
   font-size: 14px;
   font-family: mmedium;
@@ -572,21 +641,25 @@
   font-weight: 500;
   margin-top: 10px;
 }
+
 .foot-elements {
   background: #222;
   padding: 0px 20px;
 }
+
 .foot-item {
   display: flex;
   column-gap: 12px;
   justify-content: space-around;
 }
+
 .foot-section {
   display: flex;
   flex-direction: column;
   row-gap: 12px;
   padding: 32px 0px;
 }
+
 .foot-section h2 {
   font-size: 16px;
   font-weight: 500;
@@ -596,6 +669,7 @@
   margin: 0px 0px 8px;
   text-align: center;
 }
+
 .foot-section p {
   font-size: 14px;
   font-family: mmedium;
@@ -604,6 +678,11 @@
   color: rgb(196, 196, 196);
   text-align: center;
 }
+
+.popular {
+  text-align: center;
+}
+
 .footer-download {
   display: flex;
   flex-direction: column;
@@ -611,13 +690,15 @@
   align-items: center;
   padding: 32px 0px 0px;
 }
+
 .from-appstore {
-  border: 1px;
+  border: 1px solid #494949;
   width: 160px;
   height: 52px;
   border-radius: 8px;
   background: rgb(73, 73, 73);
 }
+
 .from-playstore {
   border: 1px solid #494949;
   width: 160px;
@@ -626,31 +707,38 @@
   background: rgb(73, 73, 73);
   display: flex;
 }
+
 .get-know {
   text-align: center;
 }
+
 .help-you {
   text-align: center;
   padding: 32px 0px 0px;
 }
+
 .doing-business {
   text-align: center;
   padding: 32px 0px 0px;
 }
+
 .footer-bottom {
   padding: 32px 0px;
 }
+
 .social-media {
   display: flex;
   justify-content: center;
   column-gap: 10px;
 }
+
 .language-bar {
   position: relative;
   padding: 12px;
   display: flex;
   justify-content: center;
 }
+
 .lang-img-txt {
   width: 150px;
   height: 32px;
@@ -660,20 +748,24 @@
   display: flex;
   padding: 4px 12px;
 }
+
 .language-select {
   display: flex;
   column-gap: 7px;
   justify-content: center;
   align-items: center;
 }
+
 .language-select img {
   width: 24px;
   height: 24px;
 }
+
 .language-select p {
   font-family: mmedium;
   font-size: 14px;
 }
+
 .list-arrow {
   position: relative;
   right: 34px;
@@ -682,65 +774,88 @@
   width: 24px;
   height: 24px;
 }
+
 .footer-list {
   margin: 12px 0px 0px;
 }
+
 .list1 {
   display: flex;
   justify-content: space-evenly;
   white-space: nowrap;
 }
-.footer-list p {
-  color: #c4c4c4;
-  font-size: 12px;
-  font-family: mmedium;
-}
+
 .list2 {
   display: flex;
   justify-content: space-evenly;
   white-space: nowrap;
 }
-.list2 p {
+
+.footer-list p {
+  color: #c4c4c4;
   font-size: 12px;
-  font-family: mmedium;
-  font-weight: 400;
-  line-height: 18px;
-  color: rgb(196, 196, 196);
 }
+
 .list-2-mobile {
   display: none;
 }
+
 .list-3-mobile {
   display: none;
 }
+
+.location img {
+  display: none;
+}
+
+.item-img2 {
+  display: none;
+}
+
 .footer-list-tab {
+  display: none;
+}
+
+.sign-in-profile span {
+  display: none;
+}
+
+.alcohol-desktop img {
+  display: none;
+}
+
+.pet-supply-desktop img {
+  display: none;
+}
+
+.desktop-banner img {
   display: none;
 }
 
 /* RESPONSIVE ON MOLILE(L) SCREEN*/
 
 @media screen and (min-width: 425px) {
-  .hero-banner {
+  .main-banner-bg {
     height: 550px;
   }
 
-  .discover h2 {
+  .header-bottom h2 {
     max-width: 350px;
     margin-left: auto;
     margin-right: auto;
   }
 
-  .bottom {
+  .text {
     transform: translateY(161px);
   }
 
-  .deliver {
+  .delivery-search {
     margin-left: auto;
     margin-right: auto;
     transform: translate(0px, 24px);
   }
 
-  .deliver p {
+  .delivery-search p {
     transform: translate(-32px, -1px);
   }
 
@@ -748,51 +863,51 @@
     display: none;
   }
 
-  .profile {
+  .sign-in-profile {
     margin-left: auto;
     margin-right: auto;
     transform: translateX(0px);
   }
 
-  .download-section {
+  .download-app {
     width: 358px;
     height: 146px;
   }
 
-  .orng-logo {
+  .app-logo {
     margin-left: -1px;
   }
 
-  .dwnld-btn {
+  .app-download-btn {
     margin-top: 7px;
   }
 
-  .dwnld-btn p {
+  .app-download-btn p {
     margin-left: 11px;
   }
 
-  .right-txt h2 {
+  .right-text h2 {
     margin-right: 10px;
   }
 
-  .right-txt h3 {
+  .right-text h3 {
     margin-right: 8px;
     font-weight: 400;
   }
 
-  .become {
+  .dasher-partner-experience {
     transform: translate(4px, 1px);
   }
 
-  .restaurant-section {
+  .resto-section {
     height: 852px;
   }
 
-  .restaurant-section-txt h2 {
+  .resto-section-txt h2 {
     margin-right: 34px;
   }
 
-  .restaurant-img-tab {
+  .resto-img-tab {
     display: none;
   }
 
@@ -867,48 +982,48 @@
 /* TABLET RESPONSIVE */
 
 @media screen and (min-width: 768px) {
-  .banner {
+  .header-layer {
     height: 650px;
   }
 
-  .hero-banner {
+  .main-banner-bg {
     height: 650px;
   }
 
-  .doordash-logo {
+  .center-text {
     transform: translateY(-16px);
   }
 
-  .sign-buttons {
+  .sign-in-up p {
     transform: translateY(6px);
     font-size: 18px;
   }
 
-  .sign-in {
+  .sign-in-btn {
     width: 78.03px;
     height: 40px;
   }
 
-  .sign-up {
+  .sign-up-btn {
     width: 86.48px;
     height: 40px;
   }
 
-  .button {
+  .text {
     transform: translateY(203px);
     max-width: 408px;
     margin-left: auto;
     margin-right: auto;
   }
 
-  .deliver {
+  .delivery-search {
     width: 408px;
     height: 56px;
     justify-content: start;
     column-gap: 34px;
   }
 
-  .search-btn img {
+  .search img {
     display: none;
   }
 
@@ -917,11 +1032,11 @@
     transform: translateX(-31px);
   }
 
-  .deliver p {
+  .delivery-search p {
     transform: translate(-69px, -1px);
   }
 
-  .right-arw {
+  .arrow-right {
     margin-right: 0px;
     margin-top: 0px;
     display: flex;
@@ -929,17 +1044,17 @@
     transform: translateX(48px);
   }
 
-  .download-section {
+  .download-app {
     display: none;
   }
 
-  .section-1 {
+  .first-section {
     height: 593px;
     margin: 37px 0px 40px;
     transform: translateY(-6px);
   }
 
-  .become {
+  .dasher-partner-experience {
     max-width: 485px;
     margin-left: auto;
     margin-right: auto;
@@ -950,12 +1065,12 @@
     transform: translateX(3px);
   }
 
-  .left-image img {
+  .left-img img {
     width: 124px;
     height: 124px;
   }
 
-  .right-txt {
+  .right-text {
     transform: translateX(-2px);
   }
 
@@ -963,7 +1078,7 @@
     margin: 14px 0px 0px;
   }
 
-  .restaurant-section {
+  .resto-section {
     height: 1093px;
   }
 
@@ -971,51 +1086,51 @@
     height: 605px;
   }
 
-  .restaurant-dashpass {
+  .resto-dashpass {
     display: flex;
     flex-direction: row-reverse;
     column-gap: 60px;
   }
 
-  .next {
+  .second {
     display: flex;
     flex-direction: row;
     column-gap: 60px;
     padding: 25px 20px 20px;
   }
 
-  .restaurant-img img {
+  .resto-img {
     display: none;
   }
 
-  .restaurant-img-tab {
+  .resto-img-tab {
     display: block;
     width: 100%;
     height: 500px;
   }
 
-  .restaurant-img-tab img {
+  .resto-img-tab img {
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
 
-  .restaurant-section-txt {
+  .resto-section-txt {
     transform: translateY(97px);
   }
 
-  .restaurant-section-txt h2 {
+  .resto-section-txt h2 {
     font-size: 40px;
     letter-spacing: -0.568px;
     line-height: 44px;
   }
 
-  .restaurant-section-txt h4 {
+  .resto-section-txt h4 {
     margin: 20px 0px;
     font-size: 24px;
   }
 
-  .restaurant-section-txt p {
+  .resto-section-txt p {
     font-size: 16px;
   }
 
@@ -1039,19 +1154,19 @@
     transform: translateX(-50%);
   }
 
-  .grocery-txt h2 {
+  .grocery-text h2 {
     font-size: 40px;
     letter-spacing: -0.568px;
     line-height: 44px;
   }
 
-  .grocery-txt h3 {
+  .grocery-text h3 {
     font-size: 24px;
     margin-top: 20px;
     white-space: nowrap;
   }
 
-  .grocery-txt p {
+  .grocery-text p {
     font-size: 16px;
   }
 
@@ -1061,7 +1176,7 @@
     margin-right: auto;
   }
 
-  .convenience-store {
+  .convenient-store {
     padding-top: 300px;
     display: flex;
     flex-direction: row-reverse;
@@ -1069,38 +1184,38 @@
     height: 781px;
   }
 
-  .convenience-img {
+  .convenient-img {
     display: none;
   }
 
-  .convenience-img-tab {
+  .convenient-img-tab {
     display: block;
     height: 500px;
     width: 72%;
   }
 
-  .convenience-img-tab img {
+  .convenient-img-tab img {
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
 
-  .convenience-text {
+  .convenient-text {
     max-width: 317.88px;
     transform: translateY(100px);
   }
 
-  .convenience-text h2 {
+  .convenient-text h2 {
     font-size: 40px;
     letter-spacing: -0.568px;
     line-height: 44px;
   }
 
-  .convenience-text p {
+  .convenient-text p {
     font-size: 16px;
   }
 
-  .convenience {
+  .convenient {
     width: 100.41px;
     height: 40px;
     display: flex;
@@ -1109,7 +1224,7 @@
     border-radius: 37px;
   }
 
-  .scroll-page h2 {
+  .scroll-section h2 {
     padding: 60px 20px 40px;
     max-width: 500px;
     font-size: 40px;
@@ -1334,24 +1449,24 @@
 /* RESPONSIVE ON LAPTOP */
 
 @media screen and (min-width: 1024px) {
-  .doordash-logo {
+  .center-text {
     column-gap: 12px;
   }
 
-  .doordash-image img {
+  .doordash-logo img {
     height: 24px;
   }
 
-  .doordash-txt img {
+  .doordash-text img {
     height: 18px;
     transform: translateY(3px);
   }
 
-  .bottom {
+  .text {
     transform: translateY(214px);
   }
 
-  .bottom h2 {
+  .text h2 {
     display: flex;
     justify-content: center;
     font-size: 40px;
@@ -1359,7 +1474,7 @@
     letter-spacing: -0.568px;
   }
 
-  .deliver {
+  .delivery-search {
     margin-top: 8px;
   }
 
@@ -1367,36 +1482,36 @@
     display: none;
   }
 
-  .profile {
+  .sign-in-profile {
     width: 203.75px;
     height: 32px;
     white-space: nowrap;
   }
 
-  .profile span {
+  .sign-in-profile span {
     display: flex;
     align-items: center;
     font-size: 14px;
-    font-family: norms-bold;
+    font-family: mbold;
   }
 
-  .section-1 {
+  .first-section {
     margin: 39px 0px 104px;
     padding: 0px 8px 8px;
     row-gap: 10px;
     transform: translateY(0px);
   }
 
-  .become {
+  .dasher-partner-experience {
     max-width: 486px;
     column-gap: 72px;
   }
 
-  .left-image img {
+  .left-img img {
     transform: translateX(1px);
   }
 
-  .right-txt {
+  .right-text {
     transform: translateX(-4px);
   }
 
@@ -1404,11 +1519,11 @@
     margin: 14px 0px 0px;
   }
 
-  .restaurant-section-txt h2 {
+  .resto-section-txt h2 {
     max-width: 360px;
   }
 
-  .grocery-txt {
+  .grocery-text {
     transform: translateX(-50%);
     left: 50%;
   }
@@ -1429,19 +1544,19 @@
     height: 472px;
   }
 
-  .pet-desktop img {
+  .pet-supply-desktop img {
     display: block;
     height: 100%;
     width: 100%;
     object-fit: cover;
   }
 
-  .pet-desktop {
+  .pet-supply-desktop {
     width: 472px;
     height: 472px;
   }
 
-  .scrolling-elements {
+  .scrolling-ele {
     column-gap: 137px;
   }
 
@@ -1657,17 +1772,17 @@
     left: 50%;
   }
 
-  .convenience-store {
+  .convenient-store {
     max-width: 1155.02px;
     margin-left: auto;
     margin-right: auto;
   }
 
-  .convenience-text {
+  .convenient-text {
     max-width: 399.53px;
   }
 
-  .scrolling-elements {
+  .scrolling-ele {
     column-gap: 202px;
     flex-wrap: wrap;
     display: flex;
@@ -1686,7 +1801,7 @@
     height: 552px;
   }
 
-  .pet-desktop {
+  .pet-supply-desktop {
     width: 552px;
     height: 552px;
   }

@@ -1,0 +1,67 @@
+@font-face {
+  font-family: mbold;
+  src: url(./assets/mbold.woff2);
+}
+@font-face {
+  font-family: mbook;
+  src: url(./assets/mbook.woff2);
+}
+@font-face {
+  font-family: mregular;
+  src: url(./assets/mregular.woff2);
+}
+@font-face {
+  font-family: titleblack;
+  src: url(./assets/titleblack.woff2);
+}
+@font-face {
+  font-family: titlebold;
+  src: url(./assets/titlebold.woff2);
+}
+* {
+  margin: 0px;
+  padding: opx;
+  box-sizing: border-box;
+}
+body {
+  background: rgb(18, 18, 18);
+}
+.header-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 56px;
+  padding: 0px 16px;
+}
+.spotify-logo {
+  transform: translateY(2px);
+}
+.header-right {
+  display: flex;
+  column-gap: 13px;
+}
+.search {
+  display: flex;
+  align-items: center;
+  padding: 0px 6px;
+}
+.top-button {
+  border: 1px solid #fff;
+  border-radius: 20px;
+  background: #fff;
+  width: 114.88px;
+  height: 34px;
+  transform: translateX(-3px);
+}
+.top-button p {
+  display: flex;
+  justify-content: center;
+  padding: 8px 0px;
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-family: mbold;
+}
+.menu {
+  display: flex;
+  align-items: center;
+}

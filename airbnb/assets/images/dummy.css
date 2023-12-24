@@ -1,22 +1,22 @@
-@font-face {
-  font-family: "mbold";
-  src: url(./assets/Airbnb_Cereal-Bold-bdfb98485e7836ba31b456f65cded088.woff2);
-}
-
-@font-face {
-  font-family: "mbook";
-  src: url(./assets/Airbnb_Cereal-Book-9a1c9cca9bb3d65fefa2aa487617805e.woff2);
-}
-
-@font-face {
-  font-family: "mmedium";
-  src: url(./assets/Airbnb_Cereal-Medium-50fc004b3082375f12ff0cfb67bf8e56.woff2);
-}
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "cereal-bold";
+  src: url("Airbnb_Cereal-Bold-bdfb98485e7836ba31b456f65cded088.woff2");
+}
+
+@font-face {
+  font-family: "cereal-book";
+  src: url("Airbnb_Cereal-Book-9a1c9cca9bb3d65fefa2aa487617805e.woff2");
+}
+
+@font-face {
+  font-family: "cereal-medium";
+  src: url("Airbnb_Cereal-Medium-50fc004b3082375f12ff0cfb67bf8e56.woff2");
 }
 
 body {
@@ -69,7 +69,7 @@ nav {
 
 .first h3 {
   font-size: 14px;
-  font-family: "mbook";
+  font-family: "cereal-book";
   letter-spacing: 0.25px;
   line-height: 20px;
   margin-left: -15px;
@@ -84,7 +84,7 @@ nav {
   font-weight: normal;
   font-size: 12px;
   color: #686868;
-  font-family: "mbook";
+  font-family: "cereal-book";
   line-height: 16px;
   margin-left: -15px;
 }
@@ -180,7 +180,7 @@ h2 {
 .short h3 {
   font-size: 14px;
   font-weight: normal;
-  font-family: "mbook";
+  font-family: "cereal-book";
 }
 
 .short h3:hover {
@@ -238,7 +238,7 @@ h2 {
 }
 
 .taxbar h3 {
-  font-family: "mbook";
+  font-family: "cereal-book";
   font-size: 14px;
   padding-top: 5px;
   white-space: nowrap;
@@ -369,7 +369,7 @@ h2 {
 
 .place h3 {
   font-size: 100%;
-  font-family: "mbold";
+  font-family: "cereal-bold";
   margin-left: 10px;
   padding-top: 0px;
 }
@@ -377,7 +377,7 @@ h2 {
 .km h3 {
   font-weight: normal;
   font-size: 100%;
-  font-family: "mbook";
+  font-family: "cereal-book";
   margin-left: 10px;
   color: #686868;
   white-space: nowrap;
@@ -386,7 +386,7 @@ h2 {
 
 .date h3 {
   font-weight: normal;
-  font-family: "mbook";
+  font-family: "cereal-book";
   font-size: 100%;
   color: #686868;
   margin-left: 10px;
@@ -435,14 +435,14 @@ h2 {
   left: 19px;
   bottom: 8px;
   font-size: 15px;
-  font-family: "mbook";
+  font-family: "cereal-book";
   font-weight: normal;
 }
 
 article p {
   margin-top: 46px;
   font-size: 18px;
-  font-family: "mmedium";
+  font-family: "cereal-medium";
   line-height: 22px;
   text-align: center;
   white-space: nowrap;
@@ -470,14 +470,14 @@ article p {
 
 .heading h2 {
   font-size: 22px;
-  font-family: "mbook";
+  font-family: "cereal-book";
   text-align: center;
   margin: 0 0 14px;
   padding-top: 30px;
 }
 
 .sec p {
-  font-family: "mbook";
+  font-family: "cereal-book";
   font-size: 18px;
   text-align: center;
 }
@@ -513,7 +513,7 @@ article p {
 .scrolling-ele h3 {
   font-size: 14px;
   font-weight: normal;
-  font-family: "mbook";
+  font-family: "cereal-book";
 }
 
 .scrolling-ele:hover {
@@ -546,13 +546,13 @@ article p {
 .foot-text p {
   margin-left: 10px;
   font-size: 14px;
-  font-family: "mbook";
+  font-family: "cereal-book";
 }
 
 .foot-text p {
   font-size: 15px;
   font-weight: normal;
-  font-family: "mbook";
+  font-family: "cereal-book";
   color: #686868;
 }
 
@@ -608,14 +608,14 @@ article p {
 }
 
 .sup-elements h3 {
-  font-family: "mbold";
+  font-family: "cereal-bold";
   font-size: 14px;
   padding-left: 15px;
 }
 
 .sup-elements p {
   font-weight: normal;
-  font-family: "mbook";
+  font-family: "cereal-book";
   padding-left: 15px;
 }
 
@@ -632,12 +632,12 @@ article p {
 
 .host-elements h3 {
   padding-left: 15px;
-  font-family: "mbold";
+  font-family: "cereal-bold";
   font-size: 14px;
 }
 
 .host-elements p {
-  font-family: "mbook";
+  font-family: "cereal-book";
   padding-left: 15px;
 }
 
@@ -654,12 +654,12 @@ article p {
 
 .airbnb h3 {
   padding-left: 15px;
-  font-family: "mbold";
+  font-family: "cereal-bold";
   font-size: 14px;
 }
 
 .airbnb p {
-  font-family: "mbook";
+  font-family: "cereal-book";
   padding-left: 15px;
 }
 
@@ -668,7 +668,7 @@ article p {
   column-gap: 10px;
   line-height: 2.43;
   font-size: 14px;
-  font-family: "mbold";
+  font-family: "cereal-bold";
   padding-left: 15px;
 }
 
@@ -679,12 +679,12 @@ article p {
 .first-foot h3 {
   font-weight: 600;
   font-size: 14px;
-  font-family: "mbook";
+  font-family: "cereal-book";
 }
 
 .first-foot h4 {
   font-size: 14px;
-  font-family: "mbook";
+  font-family: "cereal-book";
 }
 
 .footer-bottom {
@@ -695,7 +695,7 @@ article p {
 }
 
 .second-foot {
-  font-family: "mbook";
+  font-family: "cereal-book";
   font-size: 14px;
 }
 
@@ -732,7 +732,7 @@ article p {
 
 .location span {
   color: #fff;
-  font-family: "mbook";
+  font-family: "cereal-book";
 }
 
 .map img {
@@ -764,7 +764,7 @@ article p {
 
 .foot-caption p {
   font-size: 11px;
-  font-family: "mbook";
+  font-family: "cereal-book";
 }
 
 .language {
@@ -791,7 +791,7 @@ article p {
 .filter span {
   padding: 10px;
   font-size: 12px;
-  font-family: "mmedium";
+  font-family: "cereal-medium";
   margin-left: -10px;
   padding-left: 6px;
   padding-top: 13px;
@@ -1010,7 +1010,7 @@ section {
 
   .anywhere h3 {
     font-size: 14px;
-    font-family: "mbook";
+    font-family: "cereal-book";
     padding-right: 26px;
     padding-top: 7px;
     margin-right: 14px;
@@ -1020,7 +1020,7 @@ section {
 
   .anyweek h3 {
     font-size: 14px;
-    font-family: "mbook";
+    font-family: "cereal-book";
     border-right: 1px solid #ccc;
     padding-right: 21px;
     padding-top: 7px;
@@ -1034,7 +1034,7 @@ section {
     color: #686868;
     padding-top: 7px;
     margin-left: -7px;
-    font-family: "mbook";
+    font-family: "cereal-book";
     white-space: nowrap;
   }
 
@@ -1086,7 +1086,7 @@ section {
   }
 
   .air-home p {
-    font-family: "mmedium";
+    font-family: "cereal-medium";
     font-size: 14px;
     white-space: nowrap;
     margin-left: 13%;
@@ -1170,7 +1170,7 @@ section {
   .taxbar2 p {
     padding: 8px;
     font-size: 12px;
-    font-family: "mmedium";
+    font-family: "cereal-medium";
     white-space: nowrap;
     padding-left: 8.5px;
   }
@@ -1380,7 +1380,7 @@ section {
     display: flex;
     color: #fff;
     font-size: 14px;
-    font-family: "mbold";
+    font-family: "cereal-bold";
   }
 
   .map img {
@@ -1410,7 +1410,7 @@ section {
     padding-left: 10px;
     padding-top: 25px;
     font-size: 18px;
-    font-family: "mmedium";
+    font-family: "cereal-medium";
   }
 
   #footer {
@@ -1472,7 +1472,7 @@ section {
 
   .anywhere h4 {
     font-size: 14px;
-    font-family: "mbook";
+    font-family: "cereal-book";
     padding-right: 26px;
     padding-top: 8px;
     margin-right: 6px;
@@ -1490,7 +1490,7 @@ section {
 
   .anyweek h4 {
     font-size: 14px;
-    font-family: "mbook";
+    font-family: "cereal-book";
     border-right: 1px solid #ccc;
     padding-left: 2px;
     padding-right: 21px;
@@ -1513,7 +1513,7 @@ section {
     color: #686868;
     padding-top: 7px;
     margin-left: -7px;
-    font-family: "mbook";
+    font-family: "cereal-book";
     white-space: nowrap;
   }
 
